@@ -29,3 +29,11 @@ body {
     margin-top: 8px;
     vertical-align: middle;
 }
+
+.column ul{
+    text-align: left;
+}
+
+.column ol {
+    text-align: left;
+}
