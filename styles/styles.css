@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+.main {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 .header {
     text-align: center;
     padding: 32px;
