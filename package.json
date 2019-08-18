@@ -1,0 +1,27 @@
+{
+  "name": "cookeatrepeat",
+  "version": "1.0.0",
+  "description": "Recipe Website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiGnaLz314/cookEATrepeat.git"
+  },
+  "keywords": [
+    "recipe"
+  ],
+  "author": "chris del duco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiGnaLz314/cookEATrepeat/issues"
+  },
+  "homepage": "https://github.com/SiGnaLz314/cookEATrepeat#readme"
+}

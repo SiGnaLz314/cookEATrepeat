@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <script async src="./javascript/index.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>cookEATreapeat Upload</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./recipes/beef.html">Beef</a>
+        <a href="./recipes/chicken.html">Chicken</a>
+        <a href="./recipes/pork.html">Pork</a>
+        <a href="./recipes/lamb.html">Lamb</a>
+        <a href="./recipes/seafood.html">Seafood</a>
+        <a href="./recipes/dessert.html">Dessert</a>
+        <a class="active" href="./upload.html">Upload</a>
+    </div>
+
+    <div class="main">
+        <h1>
+            Show me your <em><strong>pics!</strong></em>
+        </h1>
+        <h4 id="date"></h4>
+
+        <div class="row">
+            <div class="column">
+                <form action="/" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="upload"/>
+                    <input type="submit" value="Upload" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<footer>
+    <p>&copy; Recipes by Cj</p>
+    <address>
+        Contact <a href="mailto:cjdelduco@gmail.com">me</a>
+    </address>
+</footer>
+
+
